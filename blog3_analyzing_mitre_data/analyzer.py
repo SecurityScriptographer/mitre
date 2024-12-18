@@ -21,11 +21,67 @@ def analyze_and_update_techniques(techniques: List[Dict[str, Any]], all_techniqu
     
     # Calculate counts for each technique
     for technique in techniques:
+        # Filter out mitigations from related relationships as they're counted separately
+        related_rels = [rel for rel in technique.get('related_relationships', [])
+                       if rel.get('relationship_type') != 'mitigates']
+        
         technique['stats'] = {
             'groups_count': len(technique.get('groups', [])),
             'mitigations_count': len(technique.get('mitigations', [])),
-            'references_count': len(technique.get('external_references', []))
+            'relationships_count': len(related_rels),
+            'referenced_count': len(technique.get('external_references', []))
         }
+    
+    # Helper function to get top 5 techniques for a specific count type
+    def get_top_5(techniques, count_type):
+        return sorted(
+            techniques,
+            key=lambda t: t['stats'][count_type],
+            reverse=True
+        )[:5]
+    
+    # Get top 5 for each category
+    top_5_groups = [
+        {
+            'id': t['technique_id'],
+            'name': t['name'],
+            'count': t['stats']['groups_count']
+        }
+        for t in get_top_5(techniques, 'groups_count')
+    ]
+    
+    top_5_mitigations = [
+        {
+            'id': t['technique_id'],
+            'name': t['name'],
+            'count': t['stats']['mitigations_count']
+        }
+        for t in get_top_5(techniques, 'mitigations_count')
+    ]
+    
+    top_5_relationships = [
+        {
+            'id': t['technique_id'],
+            'name': t['name'],
+            'count': t['stats']['relationships_count']
+        }
+        for t in get_top_5(techniques, 'relationships_count')
+    ]
+    
+    top_5_references = [
+        {
+            'id': t['technique_id'],
+            'name': t['name'],
+            'count': t['stats']['referenced_count']
+        }
+        for t in get_top_5(techniques, 'referenced_count')
+    ]
+    
+    # Find techniques with maximum counts
+    max_groups_technique = max(techniques, key=lambda t: t['stats']['groups_count'])
+    max_mitigations_technique = max(techniques, key=lambda t: t['stats']['mitigations_count'])
+    max_relationships_technique = max(techniques, key=lambda t: t['stats']['relationships_count'])
+    max_referenced_technique = max(techniques, key=lambda t: t['stats']['referenced_count'])
     
     # Calculate overall statistics
     overall_stats = {
@@ -33,13 +89,41 @@ def analyze_and_update_techniques(techniques: List[Dict[str, Any]], all_techniqu
         'total_used_techniques': total_techniques,
         'total_groups': sum(t['stats']['groups_count'] for t in techniques),
         'total_mitigations': sum(t['stats']['mitigations_count'] for t in techniques),
-        'total_references': sum(t['stats']['references_count'] for t in techniques),
+        'total_relationships': sum(t['stats']['relationships_count'] for t in techniques),
+        'total_references': sum(t['stats']['referenced_count'] for t in techniques),
         'avg_groups_per_technique': sum(t['stats']['groups_count'] for t in techniques) / total_techniques if total_techniques > 0 else 0,
         'avg_mitigations_per_technique': sum(t['stats']['mitigations_count'] for t in techniques) / total_techniques if total_techniques > 0 else 0,
-        'avg_references_per_technique': sum(t['stats']['references_count'] for t in techniques) / total_techniques if total_techniques > 0 else 0
+        'avg_relationships_per_technique': sum(t['stats']['relationships_count'] for t in techniques) / total_techniques if total_techniques > 0 else 0,
+        'avg_references_per_technique': sum(t['stats']['referenced_count'] for t in techniques) / total_techniques if total_techniques > 0 else 0,
+        'most_targeted_technique': {
+            'id': max_groups_technique['technique_id'],
+            'name': max_groups_technique['name'],
+            'groups_count': max_groups_technique['stats']['groups_count']
+        },
+        'most_mitigated_technique': {
+            'id': max_mitigations_technique['technique_id'],
+            'name': max_mitigations_technique['name'],
+            'mitigations_count': max_mitigations_technique['stats']['mitigations_count']
+        },
+        'most_related_technique': {
+            'id': max_relationships_technique['technique_id'],
+            'name': max_relationships_technique['name'],
+            'relationships_count': max_relationships_technique['stats']['relationships_count']
+        },
+        'most_referenced_technique': {
+            'id': max_referenced_technique['technique_id'],
+            'name': max_referenced_technique['name'],
+            'referenced_count': max_referenced_technique['stats']['referenced_count']
+        },
+        # Add top 5 rankings
+        'top_5_by_groups': top_5_groups,
+        'top_5_by_mitigations': top_5_mitigations,
+        'top_5_by_relationships': top_5_relationships,
+        'top_5_by_references': top_5_references
     }
     
     return overall_stats, techniques
+
 
 def find_color_for_count(colors: Dict[str, Dict[str, str]], count: int) -> str:
     """Utility function to find color for a specific count
@@ -113,13 +197,19 @@ def calculate_color_thresholds(techniques: List[Dict[str, Any]], count_type: str
     
     Args:
         techniques (List[Dict[str, Any]]): List of techniques with stats
-        count_type (str): Type of count to analyze ('groups', 'mitigations', or 'references')
+        count_type (str): Type of count to analyze ('groups', 'mitigations', or 'relationships')
         
     Returns:
         Dict[str, Dict[str, str]]: Color mapping dictionary
     """
+    # Validate count_type
+    valid_count_types = ['groups', 'mitigations', 'relationships', 'references']
+    if count_type not in valid_count_types:
+        logger.warning(f"Invalid count_type: {count_type}. Using default color scheme.")
+        return default_color_scheme()
+    
     # Extract counts
-    counts = [tech['stats'][f'{count_type}_count'] for tech in techniques]
+    counts = [tech['stats'].get(f'{count_type}_count', 0) for tech in techniques]
     
     if not counts:
         return default_color_scheme()
@@ -145,8 +235,8 @@ def calculate_color_thresholds(techniques: List[Dict[str, Any]], count_type: str
         logger.warning(f"Error calculating thresholds: {e}. Using default scheme.")
         return default_color_scheme()
     
-    # Generate colors
-    colors = generate_color_gradient('#ffffff', '#2b0000', len(thresholds) + 1)
+    # Generate colors - using a blue gradient for better visibility
+    colors = generate_color_gradient('#ffffff', '#000066', len(thresholds) + 1)
     
     # Create color mapping
     color_map = {
@@ -156,6 +246,22 @@ def calculate_color_thresholds(techniques: List[Dict[str, Any]], count_type: str
     color_map["more"] = {"color": colors[-1]}
     
     return color_map
+
+def default_color_scheme() -> Dict[str, Dict[str, str]]:
+    """Return the default color scheme
+    
+    Returns:
+        Dict[str, Dict[str, str]]: Default color mapping
+    """
+    return {
+        "0": {"color": "#ffffff"},  # White
+        "1": {"color": "#e6e6ff"},  # Very light blue
+        "2": {"color": "#b3b3ff"},  # Light blue
+        "4": {"color": "#6666ff"},  # Medium blue
+        "6": {"color": "#3333ff"},  # Strong blue
+        "11": {"color": "#0000cc"}, # Deep blue
+        "more": {"color": "#000066"}  # Very deep blue
+    }
 
 def default_color_scheme() -> Dict[str, Dict[str, str]]:
     """Return the default color scheme
@@ -179,7 +285,8 @@ def create_navigator_layer(techniques: List[Dict[str, Any]], layer_name: str, co
     Args:
         techniques (List[Dict[str, Any]]): techniques with statistics
         layer_name (str): name for the layer
-        count_type (str): type of count to visualize ('groups', 'mitigations', or 'references')
+        count_type (str): type of count to visualize ('groups', 'mitigations', or 'relationships')
+        hide_uncovered (bool): whether to hide techniques with count=0
         
     Returns:
         Dict[str, Any]: Navigator layer data structure
@@ -187,6 +294,7 @@ def create_navigator_layer(techniques: List[Dict[str, Any]], layer_name: str, co
     # Get dynamic color scheme based on data
     colors = calculate_color_thresholds(techniques, count_type)
     
+    # Create base layer structure
     result_data = {
         "description": f"Enterprise techniques heat map showing {count_type} count",
         "name": layer_name,
@@ -203,36 +311,57 @@ def create_navigator_layer(techniques: List[Dict[str, Any]], layer_name: str, co
         },
         "legendItems": [],
         "techniques": [],
+        "showTacticRowBackground": True,
+        "tacticRowBackground": "#dddddd",
         "selectTechniquesAcrossTactics": True,
         "selectSubtechniquesWithParent": True,
         "selectVisibleTechniques": False,
-        "sorting": 0,
-        "hideDisabled": True,
         "layout": {
             "layout": "flat",
             "showName": True,
             "showID": False,
             "expandedSubtechniques": True
         },
+        "hideDisabled": True
     }
     
+    # Add techniques with their counts and colors
     for technique in techniques:
         if not technique.get("technique_id"):
             logger.debug(f"Could not find technique_id for {technique.get('name', 'Unknown')}")
             continue
             
+        # Get the appropriate count based on type
         count = technique['stats'].get(f'{count_type}_count', 0)
+        
+        # Add additional context to comment based on count type
+        comment = f"{count} {count_type}"
+        if count_type == 'relationships':
+            # Get relationship types distribution
+            rel_types = {}
+            for rel in technique.get('related_relationships', []):
+                if rel.get('relationship_type') != 'mitigates':  # Skip mitigations as they're counted separately
+                    rel_type = rel.get('relationship_type', 'unknown')
+                    rel_types[rel_type] = rel_types.get(rel_type, 0) + 1
+            
+            # Add relationship type breakdown to comment
+            if rel_types:
+                comment += " ("
+                comment += ", ".join(f"{type_}: {count_}" for type_, count_ in rel_types.items())
+                comment += ")"
+        
         color = find_color_for_count(colors, count)
         
         technique_entry = {
             "techniqueID": technique["technique_id"],
             "color": color,
-            "comment": f"{count} {count_type}",
+            "comment": comment,
             "showSubtechniques": True,
             "enabled": not hide_uncovered or count > 0,
         }
         result_data["techniques"].append(technique_entry)
     
+    # Add color gradient and legend
     result_data["gradient"]["colors"] = [v['color'] for v in colors.values()]
     result_data["legendItems"] = [
         {
@@ -257,6 +386,7 @@ def save_navigator_layers(analysis_results: Dict[str, Any], output_dir: str, hid
     layer_types = {
         'groups': 'Groups Heat Map',
         'mitigations': 'Mitigations Heat Map',
+        'relationships': 'Relationships Heat Map',
         'references': 'References Heat Map'
     }
     

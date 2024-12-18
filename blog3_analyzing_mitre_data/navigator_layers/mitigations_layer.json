@@ -10,12 +10,12 @@
   "gradient": {
     "colors": [
       "#ffffff",
-      "#dbb7b7",
-      "#b87a7a",
-      "#954a4a",
-      "#712525",
-      "#4e0d0d",
-      "#2b0000"
+      "#e5d8bf",
+      "#b5cc88",
+      "#59b259",
+      "#339977",
+      "#155c7f",
+      "#000066"
     ],
     "minValue": 0,
     "maxValue": 1
@@ -27,33 +27,33 @@
     },
     {
       "label": "1",
-      "color": "#dbb7b7"
+      "color": "#e5d8bf"
     },
     {
       "label": "2",
-      "color": "#b87a7a"
+      "color": "#b5cc88"
     },
     {
       "label": "3",
-      "color": "#954a4a"
+      "color": "#59b259"
     },
     {
       "label": "12",
-      "color": "#712525"
+      "color": "#339977"
     },
     {
       "label": "13",
-      "color": "#4e0d0d"
+      "color": "#155c7f"
     },
     {
       "label": "More",
-      "color": "#2b0000"
+      "color": "#000066"
     }
   ],
   "techniques": [
     {
       "techniqueID": "T1027.014",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -67,7 +67,7 @@
     },
     {
       "techniqueID": "T1666",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -81,7 +81,7 @@
     },
     {
       "techniqueID": "T1496.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -102,56 +102,56 @@
     },
     {
       "techniqueID": "T1485.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1480.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1558.005",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1557.004",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1127.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1213.005",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1071.005",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1036.010",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -165,14 +165,14 @@
     },
     {
       "techniqueID": "T1059.011",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1213.004",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -186,63 +186,63 @@
     },
     {
       "techniqueID": "T1059.010",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1564.012",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1027.013",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1574.014",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1584.008",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1548.006",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1588.007",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1218.015",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1543.005",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -256,21 +256,21 @@
     },
     {
       "techniqueID": "T1216.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1556.009",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1027.012",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -284,7 +284,7 @@
     },
     {
       "techniqueID": "T1555.006",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -298,28 +298,28 @@
     },
     {
       "techniqueID": "T1566.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1598.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1578.005",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1659",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -333,70 +333,70 @@
     },
     {
       "techniqueID": "T1657",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1656",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1567.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1098.006",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1654",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1548.005",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1653",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1021.008",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1562.012",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1556.008",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -410,91 +410,91 @@
     },
     {
       "techniqueID": "T1027.011",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1027.010",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1562.011",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1552.008",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1651",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1650",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1036.008",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1567.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1583.008",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1021.007",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1205.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1608.006",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1027.009",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -508,7 +508,7 @@
     },
     {
       "techniqueID": "T1556.007",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -529,84 +529,84 @@
     },
     {
       "techniqueID": "T1593.003",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1649",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1070.009",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1070.008",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1584.007",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1583.007",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1070.007",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1556.006",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1586.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1585.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1648",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1647",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -620,63 +620,63 @@
     },
     {
       "techniqueID": "T1621",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1505.005",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1557.003",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1059.009",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1595.003",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1098.005",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1574.013",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1556.005",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1055.015",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -690,21 +690,21 @@
     },
     {
       "techniqueID": "T1564.009",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1559.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1562.010",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -725,21 +725,21 @@
     },
     {
       "techniqueID": "T1619",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1218.014",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1218.013",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -760,49 +760,49 @@
     },
     {
       "techniqueID": "T1036.007",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1562.009",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1564.008",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1505.004",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1027.006",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1213.003",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1553.006",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -816,98 +816,98 @@
     },
     {
       "techniqueID": "T1613",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1552.007",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1612",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1611",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1204.003",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1053.007",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1610",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1609",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1608.005",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1608.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1608.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1608.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1608.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1608",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -921,28 +921,28 @@
     },
     {
       "techniqueID": "T1553.005",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1555.005",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1484.002",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1484.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -956,91 +956,91 @@
     },
     {
       "techniqueID": "T1606.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1606.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1606",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1555.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1059.008",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1602.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1542.005",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1542.004",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1602.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1602",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1601.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1601.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1601",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -1068,609 +1068,609 @@
     },
     {
       "techniqueID": "T1556.004",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1599.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1599",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1020.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1557.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1588.006",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1053.006",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1562.008",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1547.012",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1598.003",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1598.002",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1598.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1598",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1597.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1597.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1597",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1596.005",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1596.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1596.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1596.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1596.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1596",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1595.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1595.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1595",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1594",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1593.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1593.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1593",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1592.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1592.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1592.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1592.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1592",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1591.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1591.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1591.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1591.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1591",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1590.006",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1590.005",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1590.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1590.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1590.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1590.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1590",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1589.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1589.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1589.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1589",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1588.005",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1588.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1588.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1588.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1588.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1588",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1587.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1587.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1587.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1587.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1587",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1586.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1586.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1586",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1585.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1585.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1585",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1584.006",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1584.005",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1584.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1584.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1584.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1584.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1583.006",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1583.005",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1583.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1583.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1583.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1584",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1583.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1583",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1564.007",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1558.004",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1580",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1218.012",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1205.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1564.006",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -1684,42 +1684,42 @@
     },
     {
       "techniqueID": "T1556.003",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1574.012",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1562.007",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1098.004",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1480.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1059.007",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -1733,28 +1733,28 @@
     },
     {
       "techniqueID": "T1578.003",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1578.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1578.002",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1127.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -1768,28 +1768,28 @@
     },
     {
       "techniqueID": "T1562.006",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1573.002",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1573.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1573",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -1803,7 +1803,7 @@
     },
     {
       "techniqueID": "T1574.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -1817,147 +1817,147 @@
     },
     {
       "techniqueID": "T1071.004",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1071.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1071.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1071.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1572",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1048.003",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1048.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1048.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1001.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1001.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1001.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1132.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1132.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1090.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1090.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1090.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1090.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1102.003",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1102.002",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1102.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1571",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -1978,119 +1978,119 @@
     },
     {
       "techniqueID": "T1078.004",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "7 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1564.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1564.003",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1078.003",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1078.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1078.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1564.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1574.006",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1574.002",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1574.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1574.008",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1574.007",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1574.009",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1574.011",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1574.005",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1574.010",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1574",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "10 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -2104,7 +2104,7 @@
     },
     {
       "techniqueID": "T1570",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -2118,35 +2118,35 @@
     },
     {
       "techniqueID": "T1204.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1204.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1195.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1195.002",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1195.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -2160,112 +2160,112 @@
     },
     {
       "techniqueID": "T1052.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1569.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1569.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1569",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1568.002",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1568",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1011.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1567.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1567.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1059.006",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1059.005",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1059.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1059.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1059.002",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1059.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1567",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -2293,70 +2293,70 @@
     },
     {
       "techniqueID": "T1498.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1498.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1566.003",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1566.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1566.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "7 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1566",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1565.003",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1565.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1565.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1565",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -2370,28 +2370,28 @@
     },
     {
       "techniqueID": "T1564",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1563.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "7 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1563.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1563",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -2419,7 +2419,7 @@
     },
     {
       "techniqueID": "T1087.004",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -2433,91 +2433,91 @@
     },
     {
       "techniqueID": "T1087.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1087.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1553.004",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1562.004",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1562.003",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1562.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1562.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1562",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1003.004",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1003.005",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1561.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1561.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1561",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -2538,84 +2538,84 @@
     },
     {
       "techniqueID": "T1560.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1560",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1499.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1499.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1499.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1499.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1491.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1491.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1114.003",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1114.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1114.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1134.005",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -2629,42 +2629,42 @@
     },
     {
       "techniqueID": "T1134.003",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1134.002",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1134.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1213.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1213.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1555.003",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -2678,84 +2678,84 @@
     },
     {
       "techniqueID": "T1555.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1559.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1559.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1559",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1558.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1558.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1558",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1557.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1557",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "7 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1556.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1556.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1556",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "9 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -2769,14 +2769,14 @@
     },
     {
       "techniqueID": "T1056.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1056.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -2790,147 +2790,147 @@
     },
     {
       "techniqueID": "T1555",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1552.005",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1003.008",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1003.007",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1003.006",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1558.003",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1552.006",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1003.003",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1003.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1003.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "7 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1110.004",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1110.003",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1110.002",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1110.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1021.006",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1021.005",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1021.004",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1021.003",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1021.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1021.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "8 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1554",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -2944,7 +2944,7 @@
     },
     {
       "techniqueID": "T1036.005",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -2958,7 +2958,7 @@
     },
     {
       "techniqueID": "T1036.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -2972,14 +2972,14 @@
     },
     {
       "techniqueID": "T1036.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1553.003",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -2993,14 +2993,14 @@
     },
     {
       "techniqueID": "T1553.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1553",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -3014,7 +3014,7 @@
     },
     {
       "techniqueID": "T1027.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -3028,56 +3028,56 @@
     },
     {
       "techniqueID": "T1222.002",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1222.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1552.004",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1552.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1552.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1552.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1552",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "11 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1216.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -3105,112 +3105,112 @@
     },
     {
       "techniqueID": "T1070.003",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1550.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1550.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1550.003",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1550.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1550",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "7 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1548.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1548.003",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1548.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1548.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1548",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "8 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1136.003",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1070.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1070.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1136.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1136.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -3224,63 +3224,63 @@
     },
     {
       "techniqueID": "T1547.009",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1547.008",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1547.007",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1547.006",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1547.005",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1547.004",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1547.003",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1546.014",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1546.013",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -3294,49 +3294,49 @@
     },
     {
       "techniqueID": "T1218.008",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1546.011",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1547.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1546.010",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1546.009",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1218.007",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1546.008",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -3350,7 +3350,7 @@
     },
     {
       "techniqueID": "T1546.006",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -3364,21 +3364,21 @@
     },
     {
       "techniqueID": "T1546.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1546.003",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1546.002",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -3399,56 +3399,56 @@
     },
     {
       "techniqueID": "T1218.002",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1218.010",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1218.009",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1218.005",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1218.004",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1218.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1218.003",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1218.011",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -3462,287 +3462,287 @@
     },
     {
       "techniqueID": "T1546",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1098.003",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1098.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1098.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1543.004",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1543.003",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1543.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1543.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1037.005",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1037.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1055.012",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1055.013",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1055.011",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1055.014",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1055.009",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1055.008",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1055.005",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1055.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1055.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1055.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1055.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1037.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1543",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "9 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1037.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1037.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1542.003",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1542.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1542.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1505.003",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1505.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1505.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1053.003",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1053.005",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1053.002",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1542",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1137.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1137.004",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1137.003",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1137.005",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1137.006",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1137.002",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -3756,7 +3756,7 @@
     },
     {
       "techniqueID": "T1539",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -3777,7 +3777,7 @@
     },
     {
       "techniqueID": "T1547.013",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -3791,49 +3791,49 @@
     },
     {
       "techniqueID": "T1528",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1535",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1525",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1538",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1530",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1578",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1537",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -3847,14 +3847,14 @@
     },
     {
       "techniqueID": "T1505",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1499",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -3868,7 +3868,7 @@
     },
     {
       "techniqueID": "T1498",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -3882,91 +3882,91 @@
     },
     {
       "techniqueID": "T1495",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1491",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1490",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1489",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1486",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1485",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1484",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1482",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1480",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1222",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1221",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1220",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1190",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -3980,70 +3980,70 @@
     },
     {
       "techniqueID": "T1201",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1203",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1213",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "7 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1195",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1219",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1205",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1210",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "8 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1197",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1211",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1189",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -4057,14 +4057,14 @@
     },
     {
       "techniqueID": "T1199",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1216",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -4078,70 +4078,70 @@
     },
     {
       "techniqueID": "T1218",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1204",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1212",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1200",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1176",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1185",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1187",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1137",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1135",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1136",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -4155,35 +4155,35 @@
     },
     {
       "techniqueID": "T1134",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1133",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1132",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1129",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1127",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -4218,7 +4218,7 @@
     },
     {
       "techniqueID": "T1119",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -4232,7 +4232,7 @@
     },
     {
       "techniqueID": "T1114",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -4246,91 +4246,91 @@
     },
     {
       "techniqueID": "T1112",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1111",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1110",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1106",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1105",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1104",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1102",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1098",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "7 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1095",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1092",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1091",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1090",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1087",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -4351,14 +4351,14 @@
     },
     {
       "techniqueID": "T1080",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1078",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "8 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -4372,21 +4372,21 @@
     },
     {
       "techniqueID": "T1072",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "10 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1071",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1070",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -4400,14 +4400,14 @@
     },
     {
       "techniqueID": "T1068",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1059",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "9 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -4428,21 +4428,21 @@
     },
     {
       "techniqueID": "T1055",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1053",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1052",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -4456,35 +4456,35 @@
     },
     {
       "techniqueID": "T1048",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1047",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1046",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1041",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1040",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -4498,14 +4498,14 @@
     },
     {
       "techniqueID": "T1037",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1036",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "8 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -4519,35 +4519,35 @@
     },
     {
       "techniqueID": "T1030",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1029",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1027",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1025",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1021",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -4589,7 +4589,7 @@
     },
     {
       "techniqueID": "T1011",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -4603,7 +4603,7 @@
     },
     {
       "techniqueID": "T1008",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -4617,119 +4617,119 @@
     },
     {
       "techniqueID": "T1006",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1005",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1003",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "9 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1521.003",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1422.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1422.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1628.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1664",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1663",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1662",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1661",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1660",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1658",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1655.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1655",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1628.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -4764,42 +4764,42 @@
     },
     {
       "techniqueID": "T1644",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1643",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1642",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1641.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1641",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1640",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -4834,7 +4834,7 @@
     },
     {
       "techniqueID": "T1638",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -4855,28 +4855,28 @@
     },
     {
       "techniqueID": "T1430.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1417.002",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1417.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1430.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -4890,42 +4890,42 @@
     },
     {
       "techniqueID": "T1629.003",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1629.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1629.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1629",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1626.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1626",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -4939,91 +4939,91 @@
     },
     {
       "techniqueID": "T1635.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1635",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1634.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1634",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1636.004",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1636.003",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1636.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1636.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1636",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1418.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1627.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1627",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1628.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -5037,28 +5037,28 @@
     },
     {
       "techniqueID": "T1645",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1630.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1630.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1630",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -5093,14 +5093,14 @@
     },
     {
       "techniqueID": "T1632.001",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1632",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -5121,77 +5121,77 @@
     },
     {
       "techniqueID": "T1625.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1625",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1624.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1624",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1623.001",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1623",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1474.001",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1474.002",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1474.003",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1617",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1616",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -5212,14 +5212,14 @@
     },
     {
       "techniqueID": "T1582",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1577",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -5240,7 +5240,7 @@
     },
     {
       "techniqueID": "T1541",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -5268,28 +5268,28 @@
     },
     {
       "techniqueID": "T1516",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1517",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1512",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1513",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -5310,14 +5310,14 @@
     },
     {
       "techniqueID": "T1474",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1424",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -5338,7 +5338,7 @@
     },
     {
       "techniqueID": "T1422",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -5352,28 +5352,28 @@
     },
     {
       "techniqueID": "T1398",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1404",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1418",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1417",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -5394,28 +5394,28 @@
     },
     {
       "techniqueID": "T1461",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1458",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1420",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1414",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -5429,35 +5429,35 @@
     },
     {
       "techniqueID": "T1409",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1407",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1428",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1429",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T1430",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -5471,91 +5471,91 @@
     },
     {
       "techniqueID": "T1456",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0895",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0894",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0893",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0892",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0891",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0864",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0888",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0834",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0890",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0821",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0889",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0886",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "9 mitigations",
       "showSubtechniques": true,
       "enabled": true
@@ -5569,504 +5569,505 @@
     },
     {
       "techniqueID": "T0814",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0861",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "8 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0878",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0835",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0855",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0872",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0812",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0820",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0882",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0852",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0840",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0887",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0805",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0816",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "9 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0868",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "8 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0845",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "8 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0842",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0809",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0877",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0880",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0817",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0822",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "7 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0827",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0823",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0857",
-      "color": "#4e0d0d",
+      "color": "#155c7f",
       "comment": "13 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0884",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0813",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0867",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0881",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0800",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "8 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0860",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0801",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0811",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0802",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0871",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0865",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0856",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0874",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0843",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "10 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0885",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0883",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0836",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0831",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0807",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0858",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "7 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0853",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0804",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0862",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0866",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "8 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0830",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "8 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0826",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0847",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0846",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0873",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0803",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0829",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0863",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0819",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "6 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0851",
-      "color": "#b87a7a",
+      "color": "#b5cc88",
       "comment": "2 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0832",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0815",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0828",
-      "color": "#dbb7b7",
+      "color": "#e5d8bf",
       "comment": "1 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0879",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0806",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "4 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0848",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "5 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0849",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0859",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "10 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0869",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "3 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0838",
-      "color": "#954a4a",
+      "color": "#59b259",
       "comment": "7 mitigations",
       "showSubtechniques": true,
       "enabled": true
     },
     {
       "techniqueID": "T0839",
-      "color": "#712525",
+      "color": "#339977",
       "comment": "12 mitigations",
       "showSubtechniques": true,
       "enabled": true
     }
   ],
+  "showTacticRowBackground": true,
+  "tacticRowBackground": "#dddddd",
   "selectTechniquesAcrossTactics": true,
   "selectSubtechniquesWithParent": true,
   "selectVisibleTechniques": false,
-  "sorting": 0,
-  "hideDisabled": true,
   "layout": {
     "layout": "flat",
     "showName": true,
     "showID": false,
     "expandedSubtechniques": true
-  }
+  },
+  "hideDisabled": true
 }
