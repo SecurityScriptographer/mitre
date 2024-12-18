@@ -23,3 +23,10 @@ if __name__ == "__main__":
     
     with open(FULL_PATH, 'w+') as json_file:
         json.dump(data, json_file)
+        
+    # Analyze data and save navigator layers
+    analysis_results = analyze_data(
+        mapped_techniques, 
+        len(data['techniques']),
+        output_dir="navigator_layers"
+    )
