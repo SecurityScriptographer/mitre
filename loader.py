@@ -1,8 +1,9 @@
 import json
 import logging
 import os
-from typing import Dict, Any
+from typing import Dict, Any, Optional
 from mitreattack.stix20 import MitreAttackData
+import requests
 
 logger = logging.getLogger(__name__)
 
@@ -69,6 +70,56 @@ def get_techniques(attack: MitreAttackData) -> list:
                 "mitigations": []
             })
     return techniques
+
+def load_d3fend_data(technique_id: str, use_cache: bool = True, cache_dir: str = 'cache/d3fend') -> Optional[Dict]:
+    """Load D3FEND data for a specific technique ID"""
+    os.makedirs(cache_dir, exist_ok=True)
+    cache_file = os.path.join(cache_dir, f'{technique_id}.json')
+    
+    if use_cache and os.path.exists(cache_file):
+        logger.debug(f"Loading cached D3FEND data for {technique_id}")
+        with open(cache_file, 'r') as f:
+            return json.load(f)
+            
+    try:
+        url = f"https://d3fend.mitre.org/api/offensive-technique/attack/{technique_id}.json"
+        response = requests.get(url)
+        response.raise_for_status()
+        d3fend_data = response.json()
+        
+        # Cache the data
+        with open(cache_file, 'w') as f:
+            json.dump(d3fend_data, f)
+            
+        return d3fend_data
+    except requests.RequestException as e:
+        logger.debug(f"Failed to fetch D3FEND data for {technique_id}: {str(e)}")
+        return None
+
+def load_d3fend_technique_details(def_tech_id: str, use_cache: bool = True, cache_dir: str = 'cache/d3fend_details') -> Optional[Dict]:
+    """Load detailed information for a specific D3FEND technique"""
+    os.makedirs(cache_dir, exist_ok=True)
+    cache_file = os.path.join(cache_dir, f'{def_tech_id}.json')
+    
+    if use_cache and os.path.exists(cache_file):
+        logger.debug(f"Loading cached D3FEND technique details for {def_tech_id}")
+        with open(cache_file, 'r') as f:
+            return json.load(f)
+            
+    try:
+        url = f"https://d3fend.mitre.org/api/technique/d3f:{def_tech_id}.json"
+        response = requests.get(url)
+        response.raise_for_status()
+        technique_data = response.json()
+        
+        # Cache the data
+        with open(cache_file, 'w') as f:
+            json.dump(technique_data, f)
+            
+        return technique_data
+    except requests.RequestException as e:
+        logger.debug(f"Failed to fetch D3FEND technique details for {def_tech_id}: {str(e)}")
+        return None
 
 def load_all_data(use_cache: bool = True) -> Dict[str, Any]:
     """Load all MITRE ATT&CK data"""

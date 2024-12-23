@@ -23,8 +23,7 @@ def analyze_and_update_techniques(techniques: List[Dict[str, Any]], all_techniqu
     for technique in techniques:
         technique['stats'] = {
             'groups_count': len(technique.get('groups', [])),
-            'mitigations_count': len(technique.get('mitigations', [])),
-            'referenced_count': len(technique.get('external_references', []))
+            'mitigations_count': len(technique.get('mitigations', []))
         }
     
     # Helper function to get top 5 techniques for a specific count type
@@ -54,20 +53,10 @@ def analyze_and_update_techniques(techniques: List[Dict[str, Any]], all_techniqu
         for t in get_top_5(techniques, 'mitigations_count')
     ]
     
-    top_5_references = [
-        {
-            'id': t['technique_id'],
-            'name': t['name'],
-            'count': t['stats']['referenced_count']
-        }
-        for t in get_top_5(techniques, 'referenced_count')
-    ]
-    
     # Find techniques with maximum counts
     max_groups_technique = max(techniques, key=lambda t: t['stats']['groups_count'])
     max_mitigations_technique = max(techniques, key=lambda t: t['stats']['mitigations_count'])
-    max_referenced_technique = max(techniques, key=lambda t: t['stats']['referenced_count'])
-    
+
     # Helper function to safely calculate average
     def safe_average(values, total):
         try:
@@ -81,10 +70,8 @@ def analyze_and_update_techniques(techniques: List[Dict[str, Any]], all_techniqu
         'total_used_techniques': total_techniques,
         'total_groups': sum(t['stats']['groups_count'] for t in techniques),
         'total_mitigations': sum(t['stats']['mitigations_count'] for t in techniques),
-        'total_references': sum(t['stats']['referenced_count'] for t in techniques),
         'avg_groups_per_technique': safe_average([t['stats']['groups_count'] for t in techniques], total_techniques),
         'avg_mitigations_per_technique': safe_average([t['stats']['mitigations_count'] for t in techniques], total_techniques),
-        'avg_references_per_technique': safe_average([t['stats']['referenced_count'] for t in techniques], total_techniques),
         'most_targeted_technique': {
             'id': max_groups_technique['technique_id'],
             'name': max_groups_technique['name'],
@@ -95,15 +82,9 @@ def analyze_and_update_techniques(techniques: List[Dict[str, Any]], all_techniqu
             'name': max_mitigations_technique['name'],
             'mitigations_count': max_mitigations_technique['stats']['mitigations_count']
         },
-        'most_referenced_technique': {
-            'id': max_referenced_technique['technique_id'],
-            'name': max_referenced_technique['name'],
-            'referenced_count': max_referenced_technique['stats']['referenced_count']
-        },
         # Add top 5 rankings
         'top_5_by_groups': top_5_groups,
-        'top_5_by_mitigations': top_5_mitigations,
-        'top_5_by_references': top_5_references
+        'top_5_by_mitigations': top_5_mitigations
     }
     
     return overall_stats, techniques
@@ -175,12 +156,12 @@ def calculate_color_thresholds(techniques: List[Dict[str, Any]], count_type: str
     
     Args:
         techniques (List[Dict[str, Any]]): List of techniques with stats
-        count_type (str): Type of count to analyze ('groups', 'mitigations', or 'references')
+        count_type (str): Type of count to analyze ('groups' or 'mitigations')
         
     Returns:
         Dict[str, Dict[str, str]]: Color mapping dictionary
     """
-    valid_count_types = ['groups', 'mitigations', 'references']
+    valid_count_types = ['groups', 'mitigations']
     if count_type not in valid_count_types:
         logger.warning(f"Invalid count_type: {count_type}. Using default color scheme.")
         return default_color_scheme()
@@ -240,7 +221,7 @@ def create_navigator_layer(techniques: List[Dict[str, Any]], layer_name: str, co
     Args:
         techniques (List[Dict[str, Any]]): techniques with statistics
         layer_name (str): name for the layer
-        count_type (str): type of count to visualize ('groups', 'mitigations', or 'references')
+        count_type (str): type of count to visualize ('groups' or 'mitigations')
         hide_uncovered (bool): whether to hide techniques with count=0
         
     Returns:
@@ -317,8 +298,7 @@ def save_navigator_layers(analysis_results: Dict[str, Any], output_dir: str, hid
     
     layer_types = {
         'groups': 'Groups Heat Map',
-        'mitigations': 'Mitigations Heat Map',
-        'references': 'References Heat Map'
+        'mitigations': 'Mitigations Heat Map'
     }
     
     for layer_type, layer_name in layer_types.items():

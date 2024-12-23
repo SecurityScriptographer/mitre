@@ -1,9 +1,9 @@
 import logging
-import json
 from config import FULL_PATH, setup_logging
 from loader import load_all_data
 from mapper import map_all_data
 from analyzer import analyze_data
+from optimizer import save_optimized_data
 
 logger = logging.getLogger(__name__)
 
@@ -19,7 +19,6 @@ if __name__ == "__main__":
     logger.info(f"Loaded {len(data['groups'])} groups")
     logger.info(f"Loaded {len(data['mitigations'])} mitigations")
     
-    # Map relationships between objects
     logger.info("Mapping relationships")
     mapped_techniques = map_all_data(data)
     logger.info("Finished mapping all data")
@@ -32,12 +31,8 @@ if __name__ == "__main__":
         hide_uncovered=True
     )
     
-    # Save the mapped data
-    with open(FULL_PATH, 'w+') as json_file:
-        json_data = {
-            'techniques': mapped_techniques
-        }
-        json.dump(json_data, json_file)
+    # Save the optimized mapped data
+    save_optimized_data(mapped_techniques, FULL_PATH)
     
     logger.info("Statistics for techniques:")
     for key, value in analysis_results['overall_stats'].items():
